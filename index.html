@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Peças, acessórios e itens selecionados para a Yamaha YZF R15." />
+    <title>R15 Garage — catálogo da YZF R15</title>
+    <link rel="icon" type="image/png" href="./favicon.png?v=1" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#inicio" aria-label="R15 Garage, início">
+        <span class="brand-mark">R15</span>
+        <span>GARAGE</span>
+      </a>
+      <nav aria-label="Navegação principal">
+        <a href="#catalogo">Catálogo</a>
+        <a
+          class="manual-link"
+          href="https://stgmkpeus.blob.core.windows.net/yamaha-motor-site/manual_r15abs_2025.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >Manual da moto</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio">
+        <div class="hero-copy">
+          <p class="eyebrow">FEITO PARA QUEM VIVE A R15</p>
+          <h1>Tudo para a sua <span>YZF R15</span>, em um só lugar.</h1>
+          <p class="hero-description">
+            Peças de reposição, acessórios e itens selecionados para você encontrar
+            o que precisa sem perder tempo.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#catalogo">Explorar catálogo</a>
+            <a
+              class="button button-secondary"
+              href="https://stgmkpeus.blob.core.windows.net/yamaha-motor-site/manual_r15abs_2025.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Consultar manual
+            </a>
+          </div>
+          <div class="trust-line">
+            <span>✓ Seleção da comunidade</span>
+            <span>✓ Links verificados</span>
+          </div>
+        </div>
+        <div class="hero-visual" aria-label="Yamaha YZF R15 preta">
+          <a
+            class="creator-link hero-creator"
+            href="https://www.tiktok.com/@luk3r15"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Perfil @luk3r15 no TikTok"
+          >
+            <span class="creator-label">CRIADO POR</span>
+            <span class="creator-profile">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 1 1-2-2.75V9.4a6.34 6.34 0 1 0 5.45 6.27V8.74a8.2 8.2 0 0 0 4.77 1.52V6.82c-.34 0-.67-.04-1-.13Z"/>
+              </svg>
+              @LUK3R15
+            </span>
+          </a>
+          <div class="model-stamp">
+            <small>YAMAHA</small>
+            <strong>R15</strong>
+            <span>RACING DNA</span>
+          </div>
+          <div class="speed-lines" aria-hidden="true"></div>
+          <img src="./r15-reference.png" alt="Yamaha YZF R15 preta" />
+        </div>
+      </section>
+
+      <section class="catalog-section" id="catalogo">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">CATÁLOGO</p>
+            <h2>O que você procura?</h2>
+          </div>
+          <p>Escolha uma categoria ou pesquise pelo nome da peça.</p>
+        </div>
+
+        <label class="search">
+          <span aria-hidden="true">⌕</span>
+          <input id="searchInput" type="search" placeholder="Ex.: manete, pneu, retrovisor..." />
+          <kbd>Buscar</kbd>
+        </label>
+
+        <div class="categories" role="group" aria-label="Categorias do catálogo">
+          <button class="category active" type="button" data-category="Todos">
+            <span class="category-icon">✦</span>
+            <span><strong>Todos</strong><small>Ver catálogo completo</small></span>
+          </button>
+          <button class="category" type="button" data-category="Carenagens">
+            <span class="category-icon">◢</span>
+            <span><strong>Carenagens</strong><small>Acabamento e proteção</small></span>
+          </button>
+          <button class="category" type="button" data-category="Pneus">
+            <span class="category-icon">◉</span>
+            <span><strong>Pneus</strong><small>Dianteiro e traseiro</small></span>
+          </button>
+          <button class="category" type="button" data-category="Reposição">
+            <span class="category-icon">⚙</span>
+            <span><strong>Reposição</strong><small>Manutenção da sua R15</small></span>
+          </button>
+          <button class="category" type="button" data-category="Acessórios">
+            <span class="category-icon">＋</span>
+            <span><strong>Acessórios</strong><small>Conforto e estilo</small></span>
+          </button>
+          <button class="category" type="button" data-category="Limpeza">
+            <span class="category-icon">✧</span>
+            <span><strong>Limpeza</strong><small>Cuidados com a sua R15</small></span>
+          </button>
+        </div>
+
+        <div class="results-heading">
+          <div>
+            <span class="pulse-dot"></span>
+            <strong id="resultsTitle">Itens selecionados</strong>
+          </div>
+          <span id="resultCount"></span>
+        </div>
+        <div class="product-grid" id="productGrid" aria-live="polite"></div>
+        <div class="empty-state" id="emptyState" hidden>
+          <strong>Nenhum item encontrado.</strong>
+          <span>Tente outro termo ou escolha uma categoria diferente.</span>
+        </div>
+      </section>
+
+      <section class="community">
+        <p class="eyebrow">DE R15ZEIRO PARA R15ZEIRO</p>
+        <h2>Encontrou um produto bom?</h2>
+        <p>
+          Compartilhe no grupo. A seleção cresce com as descobertas da comunidade.
+        </p>
+        <a class="button button-primary" href="#catalogo">Voltar ao catálogo</a>
+      </section>
+    </main>
+
+    <footer>
+      <div class="brand footer-brand"><span class="brand-mark">R15</span><span>GARAGE</span></div>
+      <a
+        class="creator-link footer-creator"
+        href="https://www.tiktok.com/@luk3r15"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Perfil @luk3r15 no TikTok"
+      >
+        <span class="creator-label">CRIADO POR</span>
+        <span class="creator-profile">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 1 1-2-2.75V9.4a6.34 6.34 0 1 0 5.45 6.27V8.74a8.2 8.2 0 0 0 4.77 1.52V6.82c-.34 0-.67-.04-1-.13Z"/>
+          </svg>
+          @LUK3R15
+        </span>
+      </a>
+      <p>
+        Alguns links podem gerar comissão de afiliado, sem custo adicional para você.
+      </p>
+      <span>Projeto independente, sem vínculo oficial com a Yamaha.</span>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>

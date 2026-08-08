@@ -253,7 +253,7 @@ const products = [
     description: "Revitalizador preto para plásticos, embalagem de 500 ml.",
     image: "https://http2.mlstatic.com/D_NQ_NP_840984-MLB92655477425_092025-O.webp",
     badge: "ACABAMENTO",
-    url: "https://meli.la/1ikppNq"
+    url: "https://meli.la/1XkqLkm"
   },
   {
     name: "Shampoo desengraxante Moto-V Vonixx",

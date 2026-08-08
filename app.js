@@ -461,6 +461,15 @@ products.push(
     origin: "Nacional"
   },
   {
+    name: "Tela protetora de radiador",
+    category: "Acessórios",
+    description: "Protetor preto para o radiador da Yamaha R15.",
+    image: "https://http2.mlstatic.com/D_NQ_NP_785811-MLB75242330303_032024-O.webp",
+    badge: "PROTEÇÃO",
+    url: "https://meli.la/1AAQQTh"
+    origin: "Internacional"
+  },
+  {
     name: "Relé de pisca LED ajustável de 2 pinos",
     category: "Acessórios",
     description: "Relé 12 V de dois pinos com ajuste de frequência para setas de LED.",

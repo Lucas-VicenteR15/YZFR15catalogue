@@ -709,8 +709,18 @@ products.push(
     badge: "ESCAPAMENTO",
     url: "https://s.shopee.com.br/9KgrzOCfr2",
     origin: "Internacional"
-  },
+  }
   {
+    name: "Grade protetora de radiador R15",
+    category: "Acessórios",
+    description: "Tela metálica colorida para ajudar a proteger o radiador contra pedras e detritos.",
+    image: "https://http2.mlstatic.com/D_NQ_NP_2X_974740-MLB87956163984_072025-F-para-yamaha-r15-v3-cnc-acessorios-da-motocicleta-radiador.webp,
+    badge: "ESTILO",
+    url: "https://meli.la/1AAQQTh",
+    origin: "Internacional"
+ },
+  {
+    
     name: "Ponteira esportiva SC Project",
     category: "Acessórios",
     description: "Ponteira esportiva preta com abraçadeira e acessórios de instalação.",

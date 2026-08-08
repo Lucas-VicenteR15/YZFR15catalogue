@@ -29,7 +29,7 @@ const products = [
     description: "Manete esquerdo de embreagem original para Yamaha YZF R15.",
     image: "https://http2.mlstatic.com/D_NQ_NP_859782-MLB75723496614_042024-O.webp",
     badge: "ORIGINAL",
-    url: "https://meli.la/26Ybn4D"
+    url: "https://meli.la/1WR7W9o"
   },
   {
     name: "Kit pneus Pirelli Sport Demon",
